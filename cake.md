@@ -1,5 +1,7 @@
 (Published 28/02/2018 on https://blogg.itverket.no/cake/)
 
+![](https://github.com/hmol/writings/blob/master/cake.jpg?raw=true)
+
 # Simplifying the build process with Cake
 
 Ensuring your application can be built and deployed easily in a repeatable manner, consistent across multiple environments, is an important success factor in development. Enter cake.
