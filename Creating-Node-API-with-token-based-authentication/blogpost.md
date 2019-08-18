@@ -222,7 +222,7 @@ export default class User {
 ```
 
 
-###The end
+### The end
 
 To sum it up: this was a simple example showing how to implement stateless authentication with jwt tokens in node. 
 
