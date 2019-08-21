@@ -1,4 +1,4 @@
-(Published 22/08/2019 on https://blogg.itverket.no/cake/)
+(Published 22/08/2019 on https://blogg.itverket.no/stateless-authentication-in-node/)
 
 ![locks](locks.jpeg?raw=true)
 
