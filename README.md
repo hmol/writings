@@ -1,4 +1,4 @@
-# My bloggposts
+# My blog posts
 
 ## [22/08/2019 - Building a Node API with token based authentication](Building-a-Node-API-with-token-based-authentication/blogpost.md)
 
