@@ -1,10 +1,12 @@
+(Published 22/08/2019 on https://blogg.itverket.no/cake/)
+
 ![locks](locks.jpeg?raw=true)
 
-# Building a Node API with token based authentication
+# Building a Node API with stateless authentication
 
 When building an api in Node I suddenly got the need to implement some form of simple authentication. I wanted to be able to create users and have them log in and access a bunch of secure routes. The solution turned out to be a simple combination of jwt, passport and bcrypt.
 
-[**JWT**](https://jwt.io/) or JSON Web Token is an open standard for representing claims securely between parties. Each request must include the JWT-token in the http header, allowing the user to access routes permitted with that token.
+[**JWT**](https://jwt.io/) or JSON Web Token is an open standard for representing claims securely between parties. Each request must include the JWT-token in the http header, allowing the user to access routes permitted with that token. The result is stateless authentication.
 
 [**Bcrypt**](https://en.wikipedia.org/wiki/Bcrypt) is a password hashing function that we will use to create a hash of the users password to store in database. It is based on the [Blowfish](https://en.wikipedia.org/wiki/Blowfish_cipher) block cipher algorithm.
 
